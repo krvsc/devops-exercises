@@ -27,13 +27,13 @@
 
 <details>
 <summary>Explain availability sets and availability zones</summary><br><b>
-
+Availability Sets: Protect against failures within the same location (like grouping trees).
+Availability Zones: Protect against larger, regional outages (like having separate farms in different areas).
 An availability set is a logical grouping of VMs that allows Azure to understand how your application is built to provide redundancy and availability. It is recommended that two or more VMs are created within an availability set to provide for a highly available application and to meet the 99.95% Azure SLA.
 </b></details>
 
 <details>
 <summary>What is Azure Policy?</summary><br><b>
-
 
 [Microsoft Learn](https://learn.microsoft.com/en-us/azure/governance/policy/overview): "Azure Policy helps to enforce organizational standards and to assess compliance at-scale. Through its compliance dashboard, it provides an aggregated view to evaluate the overall state of the environment, with the ability to drill down to the per-resource, per-policy granularity. It also helps to bring your resources to compliance through bulk remediation for existing resources and automatic remediation for new resources."
 </b></details>
@@ -126,6 +126,7 @@ Running parallel and high-performance computing applications
 
 <details>
 <summary>What "Azure Service Fabric" service is used for?</summary><br><b>
+[Microsoft Documentation](https://learn.microsoft.com/en-us/azure/service-fabric/service-fabric-overview): Azure Service Fabric is a distributed systems platform used to build, deploy, and manage scalable microservices and containerized applications. 
 </b></details>
 
 <details>
